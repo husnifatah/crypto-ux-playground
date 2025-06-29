@@ -22,6 +22,16 @@ export default function RootLayout({
         <AppProvider>
           <ThemeProvider>
             {children}
+            <footer className="text-center text-sm text-muted-foreground py-6">
+              ⚡ Built with <a
+                href="https://bolt.new"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline font-semibold"
+              >
+                Bolt.new
+              </a>
+            </footer>
           </ThemeProvider>
         </AppProvider>
       </body>
